@@ -1,0 +1,161 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "aa7134afeb669bea4aea",
+  "position": {
+    "x": 4.3708993787377359,
+    "y": 75.145154734947454,
+    "z": 2000,
+    "height": 255,
+    "width": 659.16666666666674,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "This collection of Page Layouts provides guidance for PDF-Print, Executive Level, Tactical Level and Detailed/Operational Level reports along with a core template with no layout suggestion.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The layouts have been built according to the ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#ee6b4d"
+                    }
+                  },
+                  {
+                    "value": "COMPANY ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "11pt",
+                      "color": "#ee6b4d"
+                    }
+                  },
+                  {
+                    "value": "style guide and can be easily adapted for specific campaign branding by substituting the purple and blue options for the campaign colours and including any campaign branding. ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#ee6b4d"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "For each level of page layout, there are options between vivid (using the purple and blue) and subdued using greys and muted versions of the purple and blue.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": " Page Layouts",
+                    "textStyle": {
+                      "fontSize": "14.6667px",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": ", coupled with, the V",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": "isual Library and Best Practices",
+                    "textStyle": {
+                      "fontSize": "14.6667px",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": " will expediate the process of report building, while adhering to the style and alleviating and design related frustrations. ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "62D"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "b70301e348fd03aec5e2"
+}

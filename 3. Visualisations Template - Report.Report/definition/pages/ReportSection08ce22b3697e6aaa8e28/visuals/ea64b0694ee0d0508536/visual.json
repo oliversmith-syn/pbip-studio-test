@@ -1,0 +1,83 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "ea64b0694ee0d0508536",
+  "position": {
+    "x": 180,
+    "y": 108.80952380952382,
+    "z": 3000,
+    "height": 110.83333333333334,
+    "width": 1170,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Treemaps are used for visualizing hierarchical data structures, showing hierarchical relationships, visualising data distribution within categories, facilitating comparison and analysis, identifying patterns and anomalies, and supporting interactive exploration of data. ",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "However, where you have many data points and/or data values with high levels of variation (e.g. from 10,000's down to 100's and 1's) the treemap is not a good choice of visual. Likewise, where you have many categories a treemap will nicely show the top few, but the remaining are usually not visible. A good alternatives is a large bar chart (stacked or clustered) as it allows users to scroll through the data and easily see each point.",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "80D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "3a9cf0d8220f5a7744bd"
+}

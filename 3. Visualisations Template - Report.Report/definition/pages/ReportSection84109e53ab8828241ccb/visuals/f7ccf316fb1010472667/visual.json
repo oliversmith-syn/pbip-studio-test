@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "f7ccf316fb1010472667",
+  "position": {
+    "x": 180.82821244818652,
+    "y": 63.259696803897647,
+    "z": 0,
+    "height": 156.66666666666666,
+    "width": 262.66666666666669,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "By default, slicers/filters in Power BI do not have the Search function enabled. ",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "It is a good practice enable the search option when there are many values, so users can search by starting to type the value rather than scrolling through a long list.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "58029807740b0d01b72f"
+}

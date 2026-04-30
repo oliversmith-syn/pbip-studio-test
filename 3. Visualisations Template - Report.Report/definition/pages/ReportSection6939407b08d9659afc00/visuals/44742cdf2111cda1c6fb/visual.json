@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "44742cdf2111cda1c6fb",
+  "position": {
+    "x": 0,
+    "y": 41.127324029487937,
+    "z": 0,
+    "height": 135.3601321172541,
+    "width": 567.709639175532,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "When formatting your charts, its important that all the required information is visible or can be easily interpreted. Include category axis labels and/or a legend when the category is not obvious (usually numeric axis); include chart titles; and consider including data labels.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Try to avoid charts showing horizontal scroll bars. Vertical scroll bars should also be avoided if possible .",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "3566683f7bd968e5abfa"
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "749ffa848dd4b7b226b2",
+  "position": {
+    "x": 180.35897340316478,
+    "y": 108.19377083061879,
+    "z": 3000,
+    "height": 68.439789014593785,
+    "width": 1169.9178051553502,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Use scatter plots when you want to explore relationships between two continuous variables, detect outliers, identify clusters or groups within the data, visualise trends over time, or assess correlations and regression. ",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Scatter plots provide a powerful tool for uncovering insights and patterns in data and are widely used in various fields, including science, engineering, finance, and social sciences.",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "80D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "cdfddca8ee5421e86674"
+}

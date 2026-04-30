@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "7e37ade51312cec37303",
+  "position": {
+    "x": 307.00248443444241,
+    "y": 109.03243744207292,
+    "z": 4000,
+    "height": 277.27062094530436,
+    "width": 518.33333333333337,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "1. Less is More",
+    "groupMode": "ScaleMode"
+  }
+}

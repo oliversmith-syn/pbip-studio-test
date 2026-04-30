@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "e6c187c0d922a5c23065",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 1000,
+    "height": 242.5,
+    "width": 359.93807658257776,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Donut - Vivid",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "7864d94ac9b60b2c18e0"
+}

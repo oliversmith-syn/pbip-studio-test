@@ -1,0 +1,60 @@
+expression Parameter1 = #"Sample File" meta [IsParameterQuery=true, BinaryIdentifier=#"Sample File", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 30a2b9e7-6f76-4c8d-823d-1e89e5c17bf8
+	queryGroup: 'Transform File from Sales Data\Helper Queries'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transform Sample File' =
+		let
+		    Source = Csv.Document(Parameter1,[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true])
+		in
+		    #"Promoted Headers"
+	lineageTag: 1ec86cb9-a1b1-45bb-8052-3685df11dce7
+	queryGroup: 'Transform File from Sales Data'
+
+	annotation PBI_ResultType = Table
+
+expression 'Sample File' =
+		let
+		    Source = Folder.Files("C:\Users\OliverSmith\Documents\training\udemy-adventureworks\AdventureWorks+Raw+Data\AdventureWorks Raw Data\Sales Data"),
+		    #"C:\Users\OliverSmith\Documents\training\AdventureWorks+Raw+Data\AdventureWorks Raw Data\Sales Data\_AdventureWorks Sales Data 2021 csv" = Source{[#"Folder Path"="C:\Users\OliverSmith\Documents\training\udemy-adventureworks\AdventureWorks+Raw+Data\AdventureWorks Raw Data\Sales Data\",Name="AdventureWorks Sales Data 2021.csv"]}[Content]
+		in
+		    #"C:\Users\OliverSmith\Documents\training\AdventureWorks+Raw+Data\AdventureWorks Raw Data\Sales Data\_AdventureWorks Sales Data 2021 csv"
+	lineageTag: 507bd961-18a7-4408-afd4-fc2eb2390cf4
+	queryGroup: 'Transform File from Sales Data\Helper Queries'
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transform File' =
+		let
+		    Source = (Parameter1 as binary) => let
+		    Source = Csv.Document(Parameter1,[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true])
+		in
+		    #"Promoted Headers"
+		in
+		    Source
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transform Sample File""}" ]
+	lineageTag: aff09472-5262-478f-8ad6-7666cd8bb43c
+	queryGroup: 'Transform File from Sales Data\Helper Queries'
+
+	annotation PBI_ResultType = Function
+
+expression 'Product Category Sales (Unpivot Demo)' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\OliverSmith\Documents\training\udemy-adventureworks\AdventureWorks+Raw+Data\AdventureWorks Raw Data\Product Category Sales (Unpivot Demo).csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Date", type date}, {"Product Category", type text}, {"North Region", Int64.Type}, {"Central Region", Int64.Type}, {"South Region", Int64.Type}}),
+		    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Changed Type", {"Date", "Product Category"}, "Attribute", "Value"),
+		    #"Pivoted Column" = Table.Pivot(#"Unpivoted Columns", List.Distinct(#"Unpivoted Columns"[Attribute]), "Attribute", "Value", List.Sum)
+		in
+		    #"Pivoted Column"
+	lineageTag: 6d10181c-63f5-489d-8f8d-0c251f91faf3
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

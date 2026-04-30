@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "9acd6f330dc42402a4c3",
+  "position": {
+    "x": 857.4386934216941,
+    "y": 278.78473921938354,
+    "z": 2000,
+    "height": 427.34573441324034,
+    "width": 182.9695497338042,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Parts of Whole",
+    "groupMode": "ScaleMode"
+  }
+}

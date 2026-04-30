@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "a82bfa2e105d03d0d402",
+  "position": {
+    "x": 996.35111876075734,
+    "y": 47.710843373494015,
+    "z": 7000,
+    "height": 223.68330464716007,
+    "width": 242.27194492254733,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "LGAs are advised to be weary of conditions and times of year that yield a ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#ffffff"
+                    }
+                  },
+                  {
+                    "value": "high correlation",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "textDecoration": "underline",
+                      "color": "#ffffff"
+                    }
+                  },
+                  {
+                    "value": " with bushfires",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "2974e17ce048c5a802d7"
+}

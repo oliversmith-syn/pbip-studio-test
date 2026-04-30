@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "5092724861ad048afcf6",
+  "position": {
+    "x": 0,
+    "y": 56.558603491271818,
+    "z": 2000,
+    "height": 663.0604079707075,
+    "width": 1280,
+    "tabOrder": 13000
+  },
+  "visualGroup": {
+    "displayName": "Year level view",
+    "groupMode": "ScaleMode"
+  }
+}

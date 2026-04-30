@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "07a0aa363237e5da2e16",
+  "position": {
+    "x": 0.10940482192815579,
+    "y": 27.205742405860562,
+    "z": 2000,
+    "height": 80.198230088495563,
+    "width": 181.46548672566246,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Bullet ",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "c0c5f9f77cde00e20665"
+}

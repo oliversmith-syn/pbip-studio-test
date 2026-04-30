@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "2974e17ce048c5a802d7",
+  "position": {
+    "x": 0,
+    "y": 426.29948364888122,
+    "z": 6000,
+    "height": 293.70051635111878,
+    "width": 1280.1376936316694
+  },
+  "visualGroup": {
+    "displayName": "Bottom Half",
+    "groupMode": "ScaleMode"
+  }
+}

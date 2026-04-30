@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "ee8998e038d4b3096e16",
+  "position": {
+    "x": 72.544080604534,
+    "y": 63.876457884648971,
+    "z": 4000,
+    "height": 29.0176322418136,
+    "width": 1161.6120906801007,
+    "tabOrder": 10000
+  },
+  "visualGroup": {
+    "displayName": "Decade labels",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5092724861ad048afcf6"
+}

@@ -1,0 +1,189 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY25SU12",
+      "reportVersionAtImport": {
+        "visual": "2.5.0",
+        "report": "3.1.0",
+        "page": "2.3.0"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Accessible_Neutral6816766533376978.json",
+      "reportVersionAtImport": {
+        "visual": "2.6.0",
+        "report": "3.1.0",
+        "page": "2.3.0"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "RaceBarChart828E7F9A76D539488CE6C92657D234CF",
+    "SunburstVizA96234ADB8D143D1837FEC426BB34781",
+    "RadarChart1446119667547",
+    "heatmap453A07F28F01EE72753E360387DD1430",
+    "wishyoulizationbarchartrace"
+  ],
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "all_bushfires6730462004529885.png",
+          "path": "all_bushfires6730462004529885.png",
+          "type": "Image"
+        },
+        {
+          "name": "fire_12538541574600639339556.png",
+          "path": "fire_12538541574600639339556.png",
+          "type": "Image"
+        },
+        {
+          "name": "fire_125385416930929926803513.png",
+          "path": "fire_125385416930929926803513.png",
+          "type": "Image"
+        },
+        {
+          "name": "fire_125385417389662447754434.png",
+          "path": "fire_125385417389662447754434.png",
+          "type": "Image"
+        },
+        {
+          "name": "fires_geo9427176287900351.json",
+          "path": "fires_geo9427176287900351.json",
+          "type": "Image"
+        },
+        {
+          "name": "ro-kazui-1ABimlLFUGk-unsplash5456466165728505.jpg",
+          "path": "ro-kazui-1ABimlLFUGk-unsplash5456466165728505.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Screenshot_2026-02-26_1224206485331639577842.png",
+          "path": "Screenshot_2026-02-26_1224206485331639577842.png",
+          "type": "Image"
+        },
+        {
+          "name": "vic_lgas_powerbi3722228639301155.json",
+          "path": "vic_lgas_powerbi3722228639301155.json",
+          "type": "Image"
+        },
+        {
+          "name": "vic_lgas_powerbi8401494809363188.json",
+          "path": "vic_lgas_powerbi8401494809363188.json",
+          "type": "Image"
+        },
+        {
+          "name": "vic_lgas_powerbi9116467101425714.json",
+          "path": "vic_lgas_powerbi9116467101425714.json",
+          "type": "Image"
+        },
+        {
+          "name": "vic_lgas3130976313959619.png",
+          "path": "vic_lgas3130976313959619.png",
+          "type": "Image"
+        },
+        {
+          "name": "Accessible_Neutral6816766533376978.json",
+          "path": "Accessible_Neutral6816766533376978.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "nav_home_hover3373188364939459.png",
+          "path": "nav_home_hover3373188364939459.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_home4689625510295159.png",
+          "path": "nav_home4689625510295159.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_fire_hover8292156954018715.png",
+          "path": "nav_fire_hover8292156954018715.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_fire5542683134519574.png",
+          "path": "nav_fire5542683134519574.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_map7925709108664665.png",
+          "path": "nav_map7925709108664665.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_map_hover01981258635173866.png",
+          "path": "nav_map_hover01981258635173866.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_graph_hover06396741990697952.png",
+          "path": "nav_graph_hover06396741990697952.png",
+          "type": "Image"
+        },
+        {
+          "name": "nav_graph9124999354733437.png",
+          "path": "nav_graph9124999354733437.png",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY25SU12",
+          "path": "BaseThemes/CY25SU12.json",
+          "type": "BaseTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultFilterActionIsDataFilter": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true,
+    "queryLimitOption": "None",
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225"
+  }
+}

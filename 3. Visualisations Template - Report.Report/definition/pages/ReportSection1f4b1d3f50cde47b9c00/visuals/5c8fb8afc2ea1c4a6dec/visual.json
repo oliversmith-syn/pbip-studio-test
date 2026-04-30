@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "5c8fb8afc2ea1c4a6dec",
+  "position": {
+    "x": 0.52370572839648288,
+    "y": 27.552923118278883,
+    "z": 1000,
+    "height": 104.23902009817687,
+    "width": 179.8567762249013,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Pie",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "9acd6f330dc42402a4c3"
+}

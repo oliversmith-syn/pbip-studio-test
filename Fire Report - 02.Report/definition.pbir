@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/2.0.0/schema.json",
+  "version": "4.0",
+  "datasetReference": {
+    "byConnection": {
+      "connectionString": "Data Source=\"powerbi://api.powerbi.com/v1.0/myorg/Oliver's Testing Workspace\";initial catalog=\"Bushfires - SM\";access mode=readonly;integrated security=ClaimsToken;semanticmodelid=7f6d5033-a8b2-43df-8ee6-248217541573"
+    }
+  }
+}

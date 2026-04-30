@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "0957aa5b31cd8aa10e34",
+  "position": {
+    "x": 0.20833333333333334,
+    "y": 100.62501271565756,
+    "z": 0,
+    "height": 214.16666666666669,
+    "width": 511.66666666666669,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "Bad_Tree16835468522072272.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "d791f14b249213cfad1f",
+  "howCreated": "InsertVisualButton"
+}

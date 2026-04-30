@@ -1,0 +1,561 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Detailed-Vivid-Filters ON",
+  "name": "Bookmark8e87bebd737b75ca1e94",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "af274b001a8cabb179d0",
+      "dc7b3983e0d262a21da2",
+      "a8b9abb521ee531f95ed",
+      "434118c68a54982b9792",
+      "cc77f757ed225f7310f3",
+      "f1e6bf7eb8e9dec419a9",
+      "eec717c043c75dbddef2",
+      "367f1993fb8ac73d0c82"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "ReportSection385d7197032a11cd56a1",
+    "sections": {
+      "ReportSection385d7197032a11cd56a1": {
+        "visualContainers": {
+          "684f08f08d00499fa267": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1f91e468ff0ce02b2555",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "9925663f5a5d9e15b054",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 2"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "bd9a62da713aa27f7d2a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Measure 1"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "997bd8935171aacc35fa",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Measure 2"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c054932cc490ede0eacd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field - Variance %"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1e0c27ce325f13aac3a5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 3"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2174c49199afa292aec6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 4"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8f5d0153120941587067",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 5"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "05b38f275b52aeb5390b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Year"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "d44d6e76ce83cedc05f9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Month"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {}
+            }
+          },
+          "af274b001a8cabb179d0": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "a8b9abb521ee531f95ed": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "434118c68a54982b9792": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1833e5420eb3c6504af2",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "cc77f757ed225f7310f3": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "639964355c6c8d496124",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f1e6bf7eb8e9dec419a9": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e6c1401d851ae6f89f61",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "eec717c043c75dbddef2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f5e3a35fadd1aef0c9b4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Year"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "d",
+                                "Entity": "Delete Me",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "d"
+                                            }
+                                          },
+                                          "Property": "Example Year"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "2014L"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Year"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "367f1993fb8ac73d0c82": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8d772a6d3b614c9710f0",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Delete Me"
+                        }
+                      },
+                      "Property": "Example Field 1"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "dc7b3983e0d262a21da2": {
+            "isHidden": false
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "true"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

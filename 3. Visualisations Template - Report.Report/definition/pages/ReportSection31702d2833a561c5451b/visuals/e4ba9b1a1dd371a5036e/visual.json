@@ -1,0 +1,87 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "e4ba9b1a1dd371a5036e",
+  "position": {
+    "x": 191.21782285840052,
+    "y": 56.089743589743605,
+    "z": 0,
+    "height": 226.66666666666669,
+    "width": 343.33333333333337,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Header Icons are small icons that appear  at the top right of almost every object in a report. The most common icon is the ellipsis for More Options which is where the Export Data command lives.",
+                    "textStyle": {
+                      "fontSize": "13.3333px",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Turn off Header Icons if they are not required. These just add noise to a report that can be distracting for end users.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "This can be done with the single toggle to turn off all Icons, or they can be toggled off individually.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "877e2298890e457e9a2e"
+}

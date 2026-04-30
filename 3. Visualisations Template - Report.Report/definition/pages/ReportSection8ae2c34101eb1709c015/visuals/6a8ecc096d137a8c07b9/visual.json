@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "6a8ecc096d137a8c07b9",
+  "position": {
+    "x": 180,
+    "y": 108.33333333333334,
+    "z": 3000,
+    "height": 105,
+    "width": 1169.1666666666667,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Line charts can be used when you have a timeseries as your category with a single metric or to compare up to 5 (charts with more than 5 lines start to become hard to read).",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Line charts can be used when you want to easily see trends across a period of time. ",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "It is important that the colours used for line charts are easily distinguishable from each other.",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The charts in this page of the library have been shortened to fit, but ideally line charts should not have a horizontal scroll bar.",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "80D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "1c24099a2c6c9e2fea72"
+}

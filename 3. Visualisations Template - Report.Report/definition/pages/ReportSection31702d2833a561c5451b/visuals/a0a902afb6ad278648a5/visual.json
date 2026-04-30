@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "a0a902afb6ad278648a5",
+  "position": {
+    "x": 812.15293582157483,
+    "y": 117.92899408284023,
+    "z": 2000,
+    "height": 577.55917159763317,
+    "width": 505.38461538461536,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "2. Align & Distribute",
+    "groupMode": "ScaleMode"
+  }
+}

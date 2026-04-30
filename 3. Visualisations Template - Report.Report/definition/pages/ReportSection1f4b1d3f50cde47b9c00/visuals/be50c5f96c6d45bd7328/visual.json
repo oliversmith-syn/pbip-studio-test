@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "be50c5f96c6d45bd7328",
+  "position": {
+    "x": 86.212121212121218,
+    "y": 236.80193236714996,
+    "z": 5000,
+    "height": 330.49822422842362,
+    "width": 1168.2857143029694,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Lines and Arrows",
+    "groupMode": "ScaleMode"
+  }
+}

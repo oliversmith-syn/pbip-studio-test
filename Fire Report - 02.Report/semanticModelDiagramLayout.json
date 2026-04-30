@@ -1,0 +1,115 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1197.3229394424677,
+            "y": 0
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "14c68994-f1ad-477f-89f9-2f1ec39aea8f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "a0859359-b39d-443d-ba24-67f2167d4d76",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 242.31883022856712,
+            "y": 345.60226606369412
+          },
+          "nodeIndex": "Fire_Details",
+          "nodeLineageTag": "40a9d2c5-4b18-4ba4-8faf-cb58bedeaad7",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 1485.2953792822807,
+            "y": 0
+          },
+          "nodeIndex": "LGA Metrics",
+          "nodeLineageTag": "732024a0-ee1d-4986-9546-cd7e3f956aa3",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 822.295046841203,
+            "y": 0
+          },
+          "nodeIndex": "LGAs",
+          "nodeLineageTag": "76af0b70-6ccd-4839-b82c-3af1175b82ff",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 823.482163112675,
+            "y": 570.03165056596026
+          },
+          "nodeIndex": "Statistic_Elements",
+          "nodeLineageTag": "405434d2-f682-430f-b67b-523496b790c8",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 563.92450146587407,
+            "y": 347.45765224387361
+          },
+          "nodeIndex": "Weather_Data",
+          "nodeLineageTag": "53d2ffa9-80fa-4297-bee7-f4628dd8ade1",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 176
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 50.34689210282319,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "edc46750d46aa4359a48",
+  "position": {
+    "x": 0.59212728481543309,
+    "y": 341.88758757099953,
+    "z": 4000,
+    "height": 99.125874125874134,
+    "width": 192.94143356643372,
+    "tabOrder": 4000
+  },
+  "visualGroup": {
+    "displayName": "Pareto",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "73b189ff6d24ad551ee8"
+}

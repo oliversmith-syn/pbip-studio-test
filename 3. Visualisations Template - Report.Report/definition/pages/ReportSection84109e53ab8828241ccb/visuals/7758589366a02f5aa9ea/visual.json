@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "7758589366a02f5aa9ea",
+  "position": {
+    "x": 0.012422172212088375,
+    "y": 48.354958294701952,
+    "z": 1000,
+    "height": 228.91566265060243,
+    "width": 395.18072289156629,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Less is more. It is often tempting to put as many objects on a page as possible, however, this can be come confusing and off-putting for many users. Try to limit the number of objects and have a good balance of white space on each page.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "White space provides visual clarity which increases focus and attention; it improves readability which enables comprehension and retention; and it improves the overall aesthetic appeal of the report which is important to creating professional reports.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Use other feature (see #2) to add additional information without cluttering the page.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "7e37ade51312cec37303"
+}

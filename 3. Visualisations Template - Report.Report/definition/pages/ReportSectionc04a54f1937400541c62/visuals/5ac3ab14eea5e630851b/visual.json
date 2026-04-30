@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "5ac3ab14eea5e630851b",
+  "position": {
+    "x": 219.28571060150674,
+    "y": 189.64285714285717,
+    "z": 1000,
+    "height": 128.57142857142856,
+    "width": 509.14286845645927,
+    "tabOrder": 0
+  },
+  "visualGroup": {
+    "displayName": "Single Measure Cards",
+    "groupMode": "ScaleMode"
+  }
+}

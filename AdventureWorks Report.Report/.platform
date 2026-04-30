@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "AdventureWorks Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7b0def9e-dfbc-4493-8046-8c6724d74d14"
+  }
+}

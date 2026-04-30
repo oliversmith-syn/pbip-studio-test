@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "632cff4e8a2145b4abb3",
+  "position": {
+    "x": 471.25,
+    "y": 216.875,
+    "z": 4000,
+    "height": 28.125,
+    "width": 276.25,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Map Legend",
+    "groupMode": "ScaleMode"
+  }
+}

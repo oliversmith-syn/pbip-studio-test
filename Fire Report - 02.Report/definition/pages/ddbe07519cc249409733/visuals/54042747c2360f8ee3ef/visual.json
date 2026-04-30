@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "54042747c2360f8ee3ef",
+  "position": {
+    "x": 59.375,
+    "y": 76.64371772805508,
+    "z": 3000,
+    "height": 635.42813266564565,
+    "width": 1169.4389027431421,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "All time view",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

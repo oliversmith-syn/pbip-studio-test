@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "b6532360230314691580",
+  "position": {
+    "x": 635.70707976512165,
+    "y": 333.61816849667815,
+    "z": 6000,
+    "height": 70.0340959242173,
+    "width": 288.16684591893238,
+    "tabOrder": 11000
+  },
+  "visualGroup": {
+    "displayName": "Back - Icons",
+    "groupMode": "ScaleMode"
+  }
+}

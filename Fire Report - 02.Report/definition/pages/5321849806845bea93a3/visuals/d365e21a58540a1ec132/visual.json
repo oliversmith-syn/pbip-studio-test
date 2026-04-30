@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "d365e21a58540a1ec132",
+  "position": {
+    "x": 35.714285714285715,
+    "y": 110.97590361445782,
+    "z": 2500,
+    "height": 21.18181818181813,
+    "width": 484.67032967032964,
+    "tabOrder": 22002
+  },
+  "visualGroup": {
+    "displayName": "Matrix Legend",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "2838cdd280360e221190"
+}

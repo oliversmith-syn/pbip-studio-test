@@ -1,0 +1,84 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "18d9b98e0a205aa2cc20",
+  "position": {
+    "x": 2.3717948717949375,
+    "y": 53.333333333333336,
+    "z": 1000,
+    "height": 185.83333333333334,
+    "width": 495.83333333333337,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Using navigation options such as buttons to navigate through reports, toggle between visuals and drill-through helps users to intuitively interact with and move around the report. ",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Its important to ensure the button navigation is well tested and that users can always return to a previous page or home.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "When using Bookmarks be cautious about how they reset filters when the ",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  },
+                  {
+                    "value": "Data",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#767676"
+                    }
+                  },
+                  {
+                    "value": " option is ticked.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "9f6a8b11c310919f3c8f"
+}

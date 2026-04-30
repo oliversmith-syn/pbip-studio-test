@@ -1,0 +1,89 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "f3f229dce24e369949b6",
+  "position": {
+    "x": 0.50978607191627112,
+    "y": 46.923076923076927,
+    "z": 3000,
+    "height": 239.23076923076923,
+    "width": 486.92307692307691,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Uniform alignment and distribution of visuals makes reports more professional, which aids in their credibility; it establishes a clear visual hierarchy; reduces clutter which improves readability; and makes it easier to draw comparisons across visuals.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "When aligning and distributing visuals, consider the use of white space. Try not to pack many visuals onto one page. Be consistent with the placement of objects, such as always having your filters in the same place, the refresh date in the same location etc.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Align and distribute visuals using the options available under the Format menu or use the position properties to remove any guess work.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "a0a902afb6ad278648a5"
+}

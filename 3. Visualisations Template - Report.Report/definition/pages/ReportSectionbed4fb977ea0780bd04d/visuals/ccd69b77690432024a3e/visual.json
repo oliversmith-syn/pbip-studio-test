@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "ccd69b77690432024a3e",
+  "position": {
+    "x": 944.11024702653253,
+    "y": 218.82525923049243,
+    "z": 3000,
+    "height": 411.91674290942365,
+    "width": 393.38975297346747,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Ad Hoc Field Selection",
+    "groupMode": "ScaleMode"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "5592f0765d218bd0e160",
+  "position": {
+    "x": 635.70707976512165,
+    "y": 268.89594627445592,
+    "z": 7000,
+    "height": 70.0340959242173,
+    "width": 288.16684591893238,
+    "tabOrder": 10000
+  },
+  "visualGroup": {
+    "displayName": "Home - Icons",
+    "groupMode": "ScaleMode"
+  }
+}

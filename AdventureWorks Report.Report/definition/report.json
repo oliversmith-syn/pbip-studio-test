@@ -1,0 +1,168 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY25SU11",
+      "reportVersionAtImport": {
+        "visual": "2.4.0",
+        "report": "3.0.0",
+        "page": "2.3.0"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f2e6b9dee1449d3da2b6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Territory Lookup"
+              }
+            },
+            "Property": "Country"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      }
+    ]
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY25SU11",
+          "path": "BaseThemes/CY25SU11.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "AdventureWorks_Logo8894908704808122.png",
+          "path": "AdventureWorks_Logo8894908704808122.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_Icon3223032314133929.png",
+          "path": "Dashboard_Icon3223032314133929.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_Icon_Blue7780485127416668.png",
+          "path": "Dashboard_Icon_Blue7780485127416668.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_Icon_Blue19546859766840274.png",
+          "path": "Dashboard_Icon_Blue19546859766840274.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon7167465700861664.png",
+          "path": "Map_Icon7167465700861664.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon_Blue884267829176135.png",
+          "path": "Map_Icon_Blue884267829176135.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon_Blue8062735889658595.png",
+          "path": "Map_Icon_Blue8062735889658595.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon3397327002753915.png",
+          "path": "Product_Icon3397327002753915.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon_Blue9698075406818782.png",
+          "path": "Product_Icon_Blue9698075406818782.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon_Blue9061887616370428.png",
+          "path": "Product_Icon_Blue9061887616370428.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon6241944594781478.png",
+          "path": "Customer_Icon6241944594781478.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon_Blue6161654849971117.png",
+          "path": "Customer_Icon_Blue6161654849971117.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon_Blue9539920777935024.png",
+          "path": "Customer_Icon_Blue9539920777935024.png",
+          "type": "Image"
+        },
+        {
+          "name": "Filter_Icon06170885606573251.png",
+          "path": "Filter_Icon06170885606573251.png",
+          "type": "Image"
+        },
+        {
+          "name": "Filter_Icon_Blue9447583208347999.png",
+          "path": "Filter_Icon_Blue9447583208347999.png",
+          "type": "Image"
+        },
+        {
+          "name": "Filter_Icon_Blue7220250942470754.png",
+          "path": "Filter_Icon_Blue7220250942470754.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

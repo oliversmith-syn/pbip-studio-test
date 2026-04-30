@@ -1,0 +1,79 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "617a1cfa545757a21c35",
+  "displayName": "Exec Dashboard",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "75ef031ea7a5083a440e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Territory Lookup"
+              }
+            },
+            "Property": "Country"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "26c6e503a91001951156",
+      "target": "06f36037cd245a0ee960",
+      "type": "DataFilter"
+    },
+    {
+      "source": "26c6e503a91001951156",
+      "target": "32e9c8c615c5050d5c87",
+      "type": "NoFilter"
+    },
+    {
+      "source": "26c6e503a91001951156",
+      "target": "863dcc598edb3d96b6a2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "26c6e503a91001951156",
+      "target": "c56632080b0399626771",
+      "type": "NoFilter"
+    },
+    {
+      "source": "479bfe0e7948a2ae7210",
+      "target": "c57cdade260805e030d3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "479bfe0e7948a2ae7210",
+      "target": "da84bb574a4d6007be87",
+      "type": "NoFilter"
+    },
+    {
+      "source": "479bfe0e7948a2ae7210",
+      "target": "06f36037cd245a0ee960",
+      "type": "NoFilter"
+    }
+  ]
+}

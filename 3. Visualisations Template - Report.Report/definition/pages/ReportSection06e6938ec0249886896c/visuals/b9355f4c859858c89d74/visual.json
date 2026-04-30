@@ -1,0 +1,147 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "b9355f4c859858c89d74",
+  "position": {
+    "x": 211.45833333333334,
+    "y": 41.649305555555564,
+    "z": 5001,
+    "height": 256.66666666666669,
+    "width": 771.66666666666674,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "When visualising a large number of data points, it is important to consider the nature of the data and the story you want to tell. Before plotting each data point, consider if aggregating (e.g. grouping with a drill down to the detail or bundling small values into an \"other\" category) or sampling (e.g. Top 10) will provide enough information to tell the story. ",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "If you decide each data point needs to be visualised, the next decision is which visuals will best represent the data. A bar chart is usually the best option: ",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#767676"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "They offer a vertical scroll bar, so all data points can be easily viewed without the chart taking up too much real estate.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "You can apply gradient formatting which comes with a legend to explain Low to High.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "If your Y-axis values have long names, these can be more easily seen with a bar chart.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The chart can be sorted by the Y-axis/category label or the value",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "You can use a hierarchy for the category and drill down to the detail.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bars can easily be used to filter the report's other visuals",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "In Power BI Bar charts are optimised for handling large datasets without affecting performance.",
+                    "textStyle": {
+                      "color": "#767676"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "c1222249411d58f41411"
+}

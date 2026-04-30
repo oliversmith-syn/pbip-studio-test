@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "2eb00f7d930308c057d2",
+  "position": {
+    "x": 1278.3835568716252,
+    "y": 0,
+    "z": 1000,
+    "height": 65.215119317192134,
+    "width": 71.903849503570811,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "expose_Logo_Icon6294242318024101.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "bf3dad8816965de1a7f8",
+  "howCreated": "InsertVisualButton"
+}
