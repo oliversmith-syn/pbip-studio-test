@@ -31,5 +31,24 @@
       "target": "bfd042e180341ee6aeb4",
       "type": "NoFilter"
     }
-  ]
+  ],
+  "objects": {
+    "outspace": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3B4DC'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
 }

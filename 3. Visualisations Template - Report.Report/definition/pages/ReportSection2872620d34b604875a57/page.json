@@ -18,6 +18,23 @@
           }
         }
       }
+    ],
+    "outspace": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3B4DC'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     ]
   }
 }
