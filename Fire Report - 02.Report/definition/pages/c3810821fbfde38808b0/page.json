@@ -46,6 +46,19 @@
           }
         }
       }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'Corbel'"
+              }
+            }
+          }
+        }
+      }
     ]
   },
   "visualInteractions": [

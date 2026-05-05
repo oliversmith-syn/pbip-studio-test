@@ -28,6 +28,13 @@
                 "Value": "203L"
               }
             }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'Corbel'"
+              }
+            }
           }
         }
       }
